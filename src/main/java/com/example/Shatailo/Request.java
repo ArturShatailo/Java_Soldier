@@ -8,6 +8,8 @@ public class Request {
     //static variables will be used during the whole class
     public static int machines;
     public static int soldiers;
+
+    //create 2 Lists for collecting created Objects Soldier and Machine
     public static ArrayList<Soldier> soldiersList = new ArrayList<>();
     public static ArrayList <Machine> machinesList = new ArrayList<>();
 
@@ -25,9 +27,6 @@ public class Request {
         int [] ages = {26, 18, 45, 36, 22};
         String [] machinesType = {"Tank Abrams", "Helicopter Apache", "AW Stryker", "(SAM) system Patriot"};
 
-        //create 2 Lists for collecting created Objects Soldier and Machine
-        //ArrayList <Soldier> soldiersList = new ArrayList<>();
-        //ArrayList <Machine> machinesList = new ArrayList<>();
 
         // Get input from user about requested machines
         System.out.print("How many war machines do you need (number)?\n");

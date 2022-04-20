@@ -8,10 +8,13 @@ public class EnemyRequest {
     public static ArrayList <EnemySoldier> soldiersListEnemy  = new ArrayList<>();
     public static ArrayList <EnemyMachine> machinesListEnemy  = new ArrayList<>();
 
+
+    //method creates soldiers and machines by random in amount of a little more that user requested for itself
     public static void createEnemy() {
 
-        machinesEnemy = Tech.getRandom(Request.machines, (Request.machines+2)-1);
-        soldiersEnemy = Tech.getRandom(Request.soldiers, (Request.soldiers+2)-1);
+        //Creates Enemy Soldiers and Machines (random process)
+        machinesEnemy = Tech.getRandom(Request.machines, (Request.machines+1)-1);
+        soldiersEnemy = Tech.getRandom(Request.soldiers, (Request.soldiers+1)-1);
         String[] namesEnemy = {"Jack", "Hugh", "Antonio", "Jane"};
         String[] machinesTypeEnemy = {"Tank Abrams", "Helicopter Apache", "AW Stryker", "(SAM) system Patriot"};
 

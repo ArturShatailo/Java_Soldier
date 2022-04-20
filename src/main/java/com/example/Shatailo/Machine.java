@@ -3,11 +3,8 @@ import java.util.List;
 
 public class Machine extends MilitaryForce {
 
-    //public String type;
-
     public Machine(String name, int power, int armor){
         super(power, armor, name);
-        //this.type = type;
     }
 
     @Override

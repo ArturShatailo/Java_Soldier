@@ -3,7 +3,6 @@ import java.util.List;
 
 public class Soldier extends MilitaryForce{
 
-    //public String name;
     public int age;
     public String type;
     public String weapon;
@@ -11,7 +10,6 @@ public class Soldier extends MilitaryForce{
 
     public Soldier(String name, int age, String type, String weapon, String rank, int power, int armor) {
         super(power, armor, name);
-        //this.name = name;
         this.age = age;
         this.type = type;
         this.weapon = weapon;
