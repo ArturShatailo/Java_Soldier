@@ -29,7 +29,11 @@ public class Tech {
     //The website with examples that I used to create a generator:
     //https://vertex-academy.com/tutorials/ru/generaciya-sluchajnyx-chisel-v-java/
     public static int getRandom(int min, int max){
-        return min + (int) ( Math.random() * (max+1) );
+
+        //int random = min + (int) ( Math.random() * (max+1) );
+        int random = (int) (Math.random()*(max-min))+min;
+        System.out.println("Random: "+ random+" min: "+min+" max: "+max);
+        return random;
     }
 
 }

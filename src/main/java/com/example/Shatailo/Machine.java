@@ -30,6 +30,8 @@ public class Machine extends MilitaryForce {
         System.out.println("\nYour new machine is:\n"+CreateMachine(createType, machinesList));
         Request.machines++;
         Request.startMenu(soldiersList, machinesList);
+
+
     }
 
 

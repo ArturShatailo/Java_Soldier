@@ -27,14 +27,17 @@ public class Request {
         int [] ages = {26, 18, 45, 36, 22};
         String [] machinesType = {"Tank Abrams", "Helicopter Apache", "AW Stryker", "(SAM) system Patriot"};
 
-
+        ////////////?????????????
+        System.out.println(Request.soldiers+'\n');
         // Get input from user about requested machines
         System.out.print("How many war machines do you need (number)?\n");
         machines = Tech.GetInputFunction();
 
+
         // Get input from user about requested soldiers
         System.out.print("How many soldiers do you need (number)?\n");
         soldiers = Tech.GetInputFunction();
+
 
         //The answer with the followed data about SOLDIERS
         System.out.print("\nWe will send for you " + soldiers + " soldiers:\n\n");

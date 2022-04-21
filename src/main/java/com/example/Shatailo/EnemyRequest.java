@@ -13,8 +13,9 @@ public class EnemyRequest {
     public static void createEnemy() {
 
         //Creates Enemy Soldiers and Machines (random process)
-        machinesEnemy = Tech.getRandom(Request.machines, (Request.machines+1)-1);
-        soldiersEnemy = Tech.getRandom(Request.soldiers, (Request.soldiers+1)-1);
+        machinesEnemy = Tech.getRandom(Request.machines, (Request.machines+1));
+
+        soldiersEnemy = Tech.getRandom(Request.soldiers, (Request.soldiers+1));
         String[] namesEnemy = {"Jack", "Hugh", "Antonio", "Jane"};
         String[] machinesTypeEnemy = {"Tank Abrams", "Helicopter Apache", "AW Stryker", "(SAM) system Patriot"};
 
