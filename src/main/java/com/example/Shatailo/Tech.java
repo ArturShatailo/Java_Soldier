@@ -32,7 +32,7 @@ public class Tech {
 
         //int random = min + (int) ( Math.random() * (max+1) );
         int random = (int) (Math.random()*(max-min))+min;
-        System.out.println("Random: "+ random+" min: "+min+" max: "+max);
+        //System.out.println("Random: "+ random+" min: "+min+" max: "+max);
         return random;
     }
 
